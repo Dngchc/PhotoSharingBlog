@@ -8,6 +8,9 @@ const userSchema = new mongoose.Schema({
     location: String,
     description: String,
     occupation: String,
+},
+{
+    timestamps: true // Automatically manage createdAt and updatedAt fields
 });
 
 module.exports = mongoose.model('User', userSchema);

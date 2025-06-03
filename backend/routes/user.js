@@ -26,7 +26,7 @@ router.get('/:id', async (req, res) => {
       res.status(500).json({ error: err.message });
     }
   });
-  
+
 
 // Cập nhật thông tin user
 router.put('/:id', async (req, res) => {
