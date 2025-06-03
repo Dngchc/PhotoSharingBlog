@@ -1,4 +1,4 @@
-# LTW-FinalProject-PhotoSharingApp
+# PhotoSharingBlog
 
 Clone project
 cd backend
@@ -9,4 +9,4 @@ new Terminal
 cd frontend
 npm install
 npm start
-# PhotoSharingBlog
+
